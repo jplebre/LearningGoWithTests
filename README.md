@@ -9,7 +9,7 @@
 
 
 ## How to create GO Docs
-1. Add a test called ExampleTestName() to your _test files
+1. Add a test called `ExampleTestName()` to your `*_test.go` files
 1. The test should have an `fmt.Println(output)` 
 1. You can also add `//` comments before the func under tests, these will be included in the docs
 1. Run `godoc -http=:6060` to start a local page in `http://localhost:6060/pkg/`
